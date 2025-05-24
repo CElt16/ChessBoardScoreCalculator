@@ -12,7 +12,7 @@ Bu program, kullanıcının belirttiği klasördeki tüm .txt dosyalarını okuy
 
 Her dosyadaki satranç tahtası şu formatta temsil edilir:
 
-ks as fs vs ss fs -- ks
+```ks as fs vs ss fs -- ks
 ps ps -- -- ps ps -- ps
 -- -- ps -- -- -- -- --
 -- -- -- as -- -- ps --
@@ -20,7 +20,7 @@ vb -- -- pb -- fb -- pb
 -- -- ab -- -- -- -- --
 pb pb -- -- pb pb pb --
 kb -- -- -- sb fb ab kb
- 
+ ```
 Bu format, programda Board nesnesine dönüştürülür.
 
 3- Program iki aşamalı olarak tahtadaki taşları analiz eder:
