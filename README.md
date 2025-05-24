@@ -3,10 +3,13 @@
 Kullanım Kılavuzu
  
 1️⃣ Gereksinimler
+
 Eğer konsoldan çalıştırılacaksa,
 
 Java Development Kit (JDK) 11 veya üstü yüklü olmalıdır.
+
 JAVA_HOME ve PATH ortam değişkenleri ayarlanmış olmalıdır.
+
 Komut satırına (CMD, Terminal) erişim gereklidir.
 
 2️⃣ Projenin Derlenmesi
@@ -34,9 +37,10 @@ Klasör yolunu tam olarak yazıp Enter tuşuna basın (örnek):
 C:\Users\pc\Desktop\boards
 Program, belirtilen klasördeki .txt dosyalarını okuyacak ve sonuçları konsola yazdırır.
 
-![sonuclar](https://github.com/user-attachments/assets/077e772f-95cb-4e05-ac96-baa951e89157)
+![image](https://github.com/user-attachments/assets/1ebeb157-3928-4716-935d-8780a0b956b0)
 
 5️⃣ Hata Yönetimi
 Dosya okuma sırasında bir hata oluşursa, verdiğiniz dosya yolunu bulunduran bir hata mesajı konsola yazdırılır.
 
-Hata: Klasör bulunamadı - /verilen klasör konumu/
+![image](https://github.com/user-attachments/assets/a31af3ee-d806-478e-8997-2c97cc9d5eea)
+
