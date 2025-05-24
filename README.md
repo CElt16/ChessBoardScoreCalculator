@@ -27,7 +27,7 @@ kb -- -- -- sb fb ab kb
 
   İlk aşamada, her taşın saldırabileceği kareler belirlenir ve bu karelerdeki karşı renk taşlar tehdit altında olarak işaretlenir.
 
-  İkinci aşamada, tehdit altında olan taşların puanlarının yarısı ilgili takıma eklenir.
+  İkinci aşamada, tehdit altında olan taşların puanlarının yarısı ilgili takıma eklenir. Tehdit altında olmayan taşların puanının tamamı eklenir.
 
 5- Her tahtanın puan sonuçları (Siyah ve Beyaz takımlar için) ekrana yazdırılır.
 
