@@ -1,6 +1,38 @@
 # ChessBoardScoreCalculator
 
-Kullanım Kılavuzu
+## Programın Amacı ve Çalışma Prensibi
+
+Bu program, kullanıcının belirttiği klasördeki tüm .txt dosyalarını okuyarak içlerindeki satranç tahtası formatındaki verileri işler.
+
+Çalışma şekli:
+
+1- Kullanıcıdan bir dosya yolu alınır.
+
+2- Verilen klasördeki .txt uzantılı tüm dosyalar okunur.
+
+Her dosyadaki satranç tahtası şu formatta temsil edilir:
+
+ks as fs vs ss fs -- ks
+ps ps -- -- ps ps -- ps
+-- -- ps -- -- -- -- --
+-- -- -- as -- -- ps --
+vb -- -- pb -- fb -- pb
+-- -- ab -- -- -- -- --
+pb pb -- -- pb pb pb --
+kb -- -- -- sb fb ab kb
+
+Bu format, programda Board nesnesine dönüştürülür.
+
+3- Program iki aşamalı olarak tahtadaki taşları analiz eder:
+
+  İlk aşamada, her taşın saldırabileceği kareler belirlenir ve bu karelerdeki karşı renk taşlar tehdit altında olarak işaretlenir.
+
+  İkinci aşamada, tehdit altında olan taşların puanlarının yarısı ilgili takıma eklenir.
+
+4- Son olarak, her tahtanın puan sonuçları (Siyah ve Beyaz takımlar için) ekrana yazdırılır.
+
+
+## Kullanım Kılavuzu
  
 1️⃣ Gereksinimler
 
