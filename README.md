@@ -21,15 +21,15 @@ vb -- -- pb -- fb -- pb
 pb pb -- -- pb pb pb --
 kb -- -- -- sb fb ab kb
  ```
-Bu format, programda Board nesnesine dönüştürülür.
+3- Bu format, programda Board nesnesine dönüştürülür.
 
-3- Program iki aşamalı olarak tahtadaki taşları analiz eder:
+4- Program iki aşamalı olarak tahtadaki taşları analiz eder:
 
   İlk aşamada, her taşın saldırabileceği kareler belirlenir ve bu karelerdeki karşı renk taşlar tehdit altında olarak işaretlenir.
 
   İkinci aşamada, tehdit altında olan taşların puanlarının yarısı ilgili takıma eklenir.
 
-4- Son olarak, her tahtanın puan sonuçları (Siyah ve Beyaz takımlar için) ekrana yazdırılır.
+5- Her tahtanın puan sonuçları (Siyah ve Beyaz takımlar için) ekrana yazdırılır.
 
 
 ## Kullanım Kılavuzu
