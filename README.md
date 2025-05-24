@@ -13,6 +13,7 @@ JAVA_HOME ve PATH ortam değişkenleri ayarlanmış olmalıdır.
 Komut satırına (CMD, Terminal) erişim gereklidir.
 
 2️⃣ Projenin Derlenmesi
+
 Komut satırını (Terminal, CMD) açın.
 
 Proje klasörüne gidin (örneğin):
@@ -26,10 +27,12 @@ Derleme başarılı olursa .class dosyaları aynı klasörde oluşacaktır.
 🔀 Alternatif olarak: Projeyi bir IDE (Eclipse, IntelliJ IDEA, VS Code, vb.) ile açabilir ve çalıştırabilirsiniz.
 
 3️⃣ Programın Çalıştırılması
+
 Derlemeden sonra programı çalıştırmak için şu komutu yazın:
 > java Main
 
 4️⃣ Program Kullanımı
+
 Program çalıştırıldığında, bir klasör yolu girmeniz istenir.
 
 Klasör yolunu tam olarak yazıp Enter tuşuna basın (örnek):
