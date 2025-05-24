@@ -2,7 +2,7 @@
 
 ## Programın Amacı ve Çalışma Prensibi
 
-Bu program, kullanıcının belirttiği klasördeki tüm .txt dosyalarını okuyarak içlerindeki satranç tahtası formatındaki verileri işler.
+Bu program, kullanıcının verdiği klasördeki .txt dosyalarını okuyarak, içlerinde tanımlı satranç tahtalarını analiz eder ve her iki takımın puan durumunu hesaplar.
 
 Çalışma şekli:
 
