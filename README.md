@@ -24,7 +24,7 @@ Ardından bu komutu yazarak tüm .java dosyalarını derleyin:
 
 Derleme başarılı olursa .class dosyaları aynı klasörde oluşacaktır.
 
-🔀 Alternatif olarak: Projeyi bir IDE (Eclipse, IntelliJ IDEA, VS Code, vb.) ile açabilir ve çalıştırabilirsiniz.
+🔀 Alternatif olarak: Programı bir IDE (Eclipse, IntelliJ IDEA, VS Code, vb.) ile açabilir ve çalıştırabilirsiniz.
 
 3️⃣ Programın Çalıştırılması
 
