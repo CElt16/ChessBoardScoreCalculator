@@ -70,7 +70,7 @@ Program çalıştırıldığında, bir klasör yolu girmeniz istenir.
 Klasör yolunu tam olarak yazıp Enter tuşuna basın (örnek):
 
 C:\Users\pc\Desktop\boards
-Program, belirtilen klasördeki .txt dosyalarını okuyacak ve sonuçları konsola yazdırır.
+Program, belirtilen klasördeki .txt dosyalarını okur ve sonuçları konsola yazdırır.
 
 ![image](https://github.com/user-attachments/assets/1ebeb157-3928-4716-935d-8780a0b956b0)
 
