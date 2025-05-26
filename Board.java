@@ -32,8 +32,8 @@ class Board {
 	// Tahtadaki her bir kareyi gezer. Eğer karede bir taş varsa
 	// o taşın saldırı menzilindeki bütün karşı renk taşları tehdit altında olarak işaretler.
 	public void processThreats() {
-		for (int row = 0; row < 8; ++row) {
-			for (int col = 0; col < 8; ++col) {
+		for (int row = 0; row < BOARD_SIZE; ++row) {
+			for (int col = 0; col < BOARD_SIZE; ++col) {
 				Piece piece = grid[row][col];
 				if (piece != null)
 					piece.markThreats(this, row, col);				
@@ -44,8 +44,8 @@ class Board {
 	// Tahtadaki her bir kareyi gezer. Gördüğü tehdit altında olan taşlardan yarı puan, tehdit altında
 	// olan taşlardan tam puan toplayarak bulunduğu takıma ekler.
 	public void collectPoints() {
-		for (int row = 0; row < 8; ++row) {
-			for (int col = 0; col < 8; ++col) {
+		for (int row = 0; row < BOARD_SIZE; ++row) {
+			for (int col = 0; col < BOARD_SIZE; ++col) {
 				Piece piece = grid[row][col];
 
 				if (piece == null)
